@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estruturas",
+      "handler": "estrutura.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estruturas/count",
+      "handler": "estrutura.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estruturas/:id",
+      "handler": "estrutura.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estruturas/curso/:id_curso",
+      "handler": "estrutura.findByIdCurso",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/estruturas",
+      "handler": "estrutura.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estruturas/:id",
+      "handler": "estrutura.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estruturas/:id",
+      "handler": "estrutura.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

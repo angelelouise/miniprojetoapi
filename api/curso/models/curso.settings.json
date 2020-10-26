@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "name": "Curso",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "descricao": {
+      "type": "string",
+      "required": false
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "data_criacao": {
+      "type": "string",
+      "required": true
+    },
+    "codigo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
