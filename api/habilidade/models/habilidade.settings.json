@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "habilidades",
+  "info": {
+    "name": "habilidade"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "id_disciplina": {
+      "type": "biginteger"
+    },
+    "pontuacao": {
+      "type": "integer"
+    },
+    "habilidade": {
+      "type": "string"
+    }
+  }
+}

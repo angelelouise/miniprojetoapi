@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/habilidades",
+      "handler": "habilidade.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habilidades/count",
+      "handler": "habilidade.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habilidades/:id",
+      "handler": "habilidade.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/habilidades",
+      "handler": "habilidade.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/habilidades/:id",
+      "handler": "habilidade.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/habilidades/:id",
+      "handler": "habilidade.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

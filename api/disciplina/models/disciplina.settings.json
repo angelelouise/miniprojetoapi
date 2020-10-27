@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disciplinas",
+  "info": {
+    "name": "Disciplina"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "id_curso": {
+      "type": "biginteger"
+    },
+    "id_estrutura": {
+      "type": "biginteger"
+    },
+    "codigo": {
+      "type": "string"
+    },
+    "ano": {
+      "type": "integer"
+    },
+    "nome": {
+      "type": "string"
+    }
+  }
+}

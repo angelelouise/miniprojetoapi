@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alunos",
+  "info": {
+    "name": "aluno"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "matricula": {
+      "type": "biginteger"
+    }
+  }
+}

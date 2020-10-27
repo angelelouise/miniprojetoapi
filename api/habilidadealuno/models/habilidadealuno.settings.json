@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "habilidadealunos",
+  "info": {
+    "name": "habilidadealuno"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "id_aluno": {
+      "type": "biginteger"
+    },
+    "id_habilidade": {
+      "type": "biginteger"
+    },
+    "data_ganho": {
+      "type": "string"
+    }
+  }
+}

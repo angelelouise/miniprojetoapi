@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/habilidadealunos",
+      "handler": "habilidadealuno.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habilidadealunos/count",
+      "handler": "habilidadealuno.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/habilidadealunos/:id",
+      "handler": "habilidadealuno.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/habilidadealunos",
+      "handler": "habilidadealuno.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/habilidadealunos/:id",
+      "handler": "habilidadealuno.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/habilidadealunos/:id",
+      "handler": "habilidadealuno.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
